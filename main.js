@@ -17,4 +17,45 @@ console.log(avg);
 var width = 15,
   hight = 2,
   sum = width * hight;
-  console.log(sum);
+console.log(sum);
+
+//? exeresie 7
+var numberOne = 4,
+  numberTow = 8,
+  temp;
+console.log(numberOne);
+console.log(numberTow);
+console.log(temp);
+temp = numberOne;
+numberOne = numberTow;
+numberTow = temp;
+console.log(numberOne);
+console.log(numberTow);
+console.log(temp);
+//? exeresie 8
+btn8 = document.getElementById("btn8");
+// btn8.onclick = () => {
+//   var userNumbers8 = document.getElementById("userNumbers8").value,
+//     userNumbers8_1 = document.getElementById("userNumbers8_1").value;
+//   console.log(userNumbers8);
+//   console.log(userNumbers8_1);
+// };
+
+// ?exeresie 9
+var myString = "3";
+function PlacementString(g) {
+  var g = 4;
+  g = 4521;
+  console.log(g);
+}
+PlacementString(myString);
+console.log(myString);
+// ? exeresie 10
+var exe10 = true;
+var playBtn = document.getElementById("playBtn"),
+  stopBtn = document.getElementById("stopBtn"),
+  bigDiv = document.getElementById("bigDiv"),
+  smallDiv = document.getElementById("smallDiv");
+playBtn.onclick = () => {
+  smallDiv.style.width = smallDiv.style.width = "100+ 'px'";
+};
