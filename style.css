@@ -2,9 +2,14 @@
     background-color: blueviolet;
     width: 400px;
     height: 400px;
+    position:relative;
 }
 #smallDiv {
     background-color: rgb(43, 226, 73);
     width: 100px;
     height: 100px;
+    position: absolute;
+}
+#playBtn {
+    background-color: pink;
 }
