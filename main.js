@@ -52,30 +52,30 @@
 // console.log(myString);
 // ? exeresie 10
 
-var playBtn = document.getElementById("playBtn"),
-  stopBtn = document.getElementById("stopBtn"),
-  bigDiv = document.getElementById("bigDiv"),
-  smallDiv = document.getElementById("smallDiv"),
-  position = 0,
-  top = 0,
-  myIntervalId,
-  divTop = 0;
+// var playBtn = document.getElementById("playBtn"),
+//   stopBtn = document.getElementById("stopBtn"),
+//   bigDiv = document.getElementById("bigDiv"),
+//   smallDiv = document.getElementById("smallDiv"),
+//   position = 0,
+//   top = 0,
+//   myIntervalId,
+//   divTop = 0;
 
-function play() {
-  myIntervalId = window.setInterval(() => {
-    smallDiv.style.left = `${position++}px`;
-    console.log(position);
-    if (position > 300) {
-      window.clearInterval(myIntervalId);
-    }
-  }, 100);
-}
+// function play() {
+//   myIntervalId = window.setInterval(() => {
+//     smallDiv.style.left = `${position++}px`;
+//     console.log(position);
+//     if (position > 300) {
+//       stop();
+//     }
+//   }, 10);
+// }
 
-function stop() {
-  window.clearInterval(myIntervalId);
-}
-playBtn.onclick = play;
-stopBtn.onclick = stop;
+// function stop() {
+//   window.clearInterval(myIntervalId);
+// }
+// playBtn.onclick = play;
+// stopBtn.onclick = stop;
 // function play() {
 //   internalId = window.setInterval(() => {
 //     if (counter >= 300) {
@@ -119,3 +119,9 @@ stopBtn.onclick = stop;
 //   },10);
 // };
 // stopBtn.onclick = () => {};
+
+
+
+
+
+// תרגילי מערכים
