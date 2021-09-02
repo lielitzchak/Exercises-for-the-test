@@ -1,15 +1,29 @@
+* {
+  background-color: rgb(179, 171, 171);
+}
 #bigDiv {
-    background-color: blueviolet;
-    width: 400px;
-    height: 400px;
-    position:relative;
+  background-color: blueviolet;
+  width: 400px;
+  height: 400px;
+  position: relative;
 }
 #smallDiv {
-    background-color: rgb(43, 226, 73);
-    width: 100px;
-    height: 100px;
-    position: absolute;
+  background-color: rgb(43, 226, 73);
+  width: 100px;
+  height: 100px;
+  position: absolute;
 }
 #playBtn {
-    background-color: pink;
+  background-color: pink;
+}
+.class {
+  background-color: aquamarine;
+}
+/* .class.active{
+
+} */
+.allClasss {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(168, 168, 16);
 }
